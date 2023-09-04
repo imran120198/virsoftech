@@ -10,6 +10,8 @@ const Cart = ({products}) => {
         return (
             <div>
                 <p>{elem.name}</p>
+                <p>{elem.price}</p>
+
             </div>
         )
       })}
