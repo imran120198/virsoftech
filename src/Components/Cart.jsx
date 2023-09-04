@@ -6,6 +6,13 @@ const Cart = ({products}) => {
   return (
     <div className={styles.cartContainer}>
       <p>My Cart</p>
+      {products.map((elem) => {
+        return (
+            <div>
+                <p>{elem.name}</p>
+            </div>
+        )
+      })}
     </div>
   );
 };
